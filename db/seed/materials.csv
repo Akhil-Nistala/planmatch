@@ -1,0 +1,68 @@
+material_id,entry_level,parent_type_id,material_type_jp,material_type_en,product_name,manufacturer,asbestos_type,production_start_year,production_end_year,contains_asbestos,dust_level,usage_parts,verification,source_url,source_note
+T001,type,,吹付け石綿,sprayed asbestos,,,,1956,1975,yes,1,ceiling;steel_fireproofing;machine_room,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 目で見るアスベスト建材(第2版) H20.3 pp.8-9 製造時期 table; content 60-70% (p.12)
+T002,type,,吹付けロックウール,sprayed rock wool,,,,1961,1987,varies,1,ceiling;steel_fireproofing;machine_room,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (石綿含有吹付けロックウール)
+T003,type,,湿式吹付け材,wet-applied sprayed fireproofing,,,,1970,1989,varies,1,steel_fireproofing,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (湿式石綿含有吹付け材)
+T004,type,,吹付けバーミキュライト,sprayed vermiculite,,,,,1988,varies,1,ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (石綿含有吹付けバーミキュライト ～1988)
+T005,type,,吹付けパーライト,sprayed perlite,,,,,1989,varies,1,ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (石綿含有吹付けパーライト ～1989)
+T006,type,,けいそう土保温材,diatomaceous-earth thermal insulation,,,,,1980,varies,2,piping;equipment,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～1980)
+T007,type,,けい酸カルシウム保温材,calcium silicate thermal insulation,,,,,1980,varies,2,piping;equipment,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～1980)
+T008,type,,バーミキュライト保温材,vermiculite thermal insulation,,,,,1980,varies,2,piping;equipment,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～1980)
+T009,type,,パーライト保温材,perlite thermal insulation,,,,,1980,varies,2,piping;equipment,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～1980)
+T010,type,,石綿保温材,asbestos thermal insulation,,,,,1980,yes,2,piping;equipment,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～1980)
+T011,type,,けい酸カルシウム板第2種,calcium silicate board type 2 (fireproofing),,,,1963,1997,varies,2,steel_fireproofing,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 耐火被覆材
+T012,type,,耐火被覆板,fireproofing board,,,,1966,1983,varies,2,steel_fireproofing,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (石綿含有耐火被覆板)
+T013,type,,屋根用折板石綿断熱材,asbestos insulation for folded-plate roofs,,,,,1989,yes,2,roof,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～1989)
+T014,type,,煙突用石綿断熱材,asbestos chimney insulation,,,,,2004,yes,2,chimney,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～2004)
+T015,type,T042,スレートボード・フレキシブル板,slate board - flexible board,,,,1952,2004,varies,3,wall;ceiling;exterior_wall;eaves,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T016,type,T042,スレートボード・平板,slate board - flat sheet,,,,1931,2004,varies,3,wall;ceiling;exterior_wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T017,type,T042,スレートボード・軟質板,slate board - soft sheet,,,,1936,2004,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T018,type,T042,スレートボード・軟質フレキシブル板,slate board - soft flexible board,,,,1971,2004,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T019,type,T042,スレートボード・その他,slate board - other,,,,1953,2004,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T020,type,,スラグせっこう板,slag gypsum board,,,,1978,2003,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T021,type,,パルプセメント板,pulp cement board,,,,1958,2004,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T022,type,T044,けい酸カルシウム板第1種,calcium silicate board type 1,,,,1960,2004,varies,3,wall;ceiling;partition;exterior_wall;eaves,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (interior; fire partition; exterior)
+T023,type,,ロックウール吸音天井板,rock wool acoustic ceiling board,,,,1961,1987,varies,3,ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T024,type,,せっこうボード,gypsum board,,,,1970,1986,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9; MLIT corrected the earlier edition's 1970-2000 to 1970-1986 (asbestos_old page)
+T025,type,,パーライト板,perlite board,,,,1951,1999,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T026,type,,その他パネル・ボード,other panels and boards,,,,1966,2003,varies,3,wall;ceiling,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9; catch-all row - no aliases on purpose
+T027,type,,壁紙,wallpaper,,,,1969,1991,varies,3,wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (石綿含有壁紙)
+T028,type,,ビニル床タイル,vinyl floor tile,,,,1952,1987,varies,3,floor,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T029,type,,ビニル床シート,vinyl sheet flooring,,,,1951,1990,varies,3,floor,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T030,type,,ソフト巾木,soft vinyl baseboard,,,,,,varies,3,baseboard,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 lists it with no period ('住宅用ほとんどなし')
+T031,type,,窯業系サイディング,fibre-cement (ceramic) siding,,,,1960,2004,varies,3,exterior_wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T032,type,,建材複合金属系サイディング,composite metal siding,,,,1975,1990,varies,3,exterior_wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T033,type,,押出成形セメント板,extruded cement panel,,,,1970,2004,varies,3,exterior_wall;wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T034,type,T043,スレート波板・大波,corrugated slate - large corrugation,,,,1931,2004,varies,3,roof;exterior_wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T035,type,T043,スレート波板・小波,corrugated slate - small corrugation,,,,1918,2004,varies,3,roof;exterior_wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T036,type,T043,スレート波板・その他,corrugated slate - other,,,,1930,2004,varies,3,roof;exterior_wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T037,type,,住宅屋根用化粧スレート,decorative roofing slate (residential),,,,1961,2004,varies,3,roof,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T038,type,,ルーフィング,roofing felt,,,,1937,1987,varies,3,roof,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (石綿含有ルーフィング)
+T039,type,,石綿セメント円筒,asbestos cement flue pipe,,,,1937,2004,yes,3,chimney,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T040,type,,石綿セメント管,asbestos cement pipe,,,,,1985,yes,3,piping,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9 (～1985)
+T041,type,,石綿発泡体,asbestos foam,,,,1973,2001,yes,3,wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,MLIT 第2版 pp.8-9
+T042,type,,スレートボード,slate board (subtype unspecified),,,,1931,2004,varies,3,wall;ceiling;exterior_wall;eaves,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,Derived: union of MLIT periods for T015-T019
+T043,type,,スレート波板,corrugated slate (subtype unspecified),,,,1918,2004,varies,3,roof;exterior_wall,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,Derived: union of MLIT periods for T034-T036
+T044,type,,けい酸カルシウム板,calcium silicate board (type unspecified),,,,1960,2004,varies,3,wall;ceiling;partition;exterior_wall;eaves;steel_fireproofing,verified,https://www.mlit.go.jp/kisha/kisha08/01/010425_3/01.pdf,Derived: union of MLIT periods for T022 and T011
+T045,type,,仕上塗材,finish coating (textured render),,,,,,varies,3,wall;ceiling;exterior_wall,placeholder,,Not in MLIT 第2版 table; asbestos-containing finish coatings are covered by later guidance. Period not yet sourced - TODO verify
+N001,type,,木質フローリング,wood flooring,,,,,,no,,floor,assumption,,Material class not on any ACM list consulted; adhesives/substrates NOT assessed
+N002,type,,合板,plywood,,,,,,no,,floor;wall;ceiling,assumption,,Material class not on any ACM list consulted
+N003,type,,磁器質タイル,porcelain tile,,,,,,no,,floor;wall,assumption,,Tile body only; adhesives/grout/underlay NOT assessed
+N004,type,,天然石,natural stone,,,,,,no,,floor;wall,assumption,,Material class not on any ACM list consulted
+N005,type,,ガラス,glass,,,,,,no,,wall;partition,assumption,,Material class not on any ACM list consulted
+N006,type,,鋼板,steel sheet,,,,,,no,,wall;ceiling;exterior_wall;roof,assumption,,Bare steel only; coatings/backing insulation NOT assessed
+N007,type,,アルミニウム,aluminium,,,,,,no,,wall;ceiling;exterior_wall,assumption,,Material class not on any ACM list consulted
+N008,type,,ステンレス,stainless steel,,,,,,no,,wall;baseboard,assumption,,Material class not on any ACM list consulted
+N009,type,,タイルカーペット,carpet tile,,,,,,no,,floor,assumption,,Carpet only; underlying floor finish NOT assessed
+N010,type,,畳,tatami,,,,,,no,,floor,assumption,,Material class not on any ACM list consulted
+N011,type,,コンクリート打放し,exposed concrete,,,,,,no,,wall;ceiling;floor,assumption,,Bare concrete only; any applied finish coating NOT assessed
+N012,type,,木製巾木,timber baseboard,,,,,,no,,baseboard,assumption,,Material class not on any ACM list consulted
+P001,product,T022,けい酸カルシウム板第1種,calcium silicate board type 1,PH-ケイカルボード SA,架空建材工業（PLACEHOLDER）,chrysotile,1975,1993,yes,3,wall;ceiling,placeholder,,FICTIONAL test fixture - not a real product
+P002,product,T022,けい酸カルシウム板第1種,calcium silicate board type 1,PH-ケイカルボード NA,架空建材工業（PLACEHOLDER）,,2004,,no,3,wall;ceiling,placeholder,,FICTIONAL test fixture - not a real product
+P003,product,T023,ロックウール吸音天井板,rock wool acoustic ceiling board,PH-アコースティ 600,サンプル窯業（PLACEHOLDER）,chrysotile,1970,1987,yes,3,ceiling,placeholder,,FICTIONAL test fixture - not a real product
+P004,product,T023,ロックウール吸音天井板,rock wool acoustic ceiling board,PH-アコースティ NA,サンプル窯業（PLACEHOLDER）,,1988,,no,3,ceiling,placeholder,,FICTIONAL test fixture - not a real product
+P005,product,T028,ビニル床タイル,vinyl floor tile,PH-ビニタイル K,テスト化成（PLACEHOLDER）,chrysotile,1965,1986,yes,3,floor,placeholder,,FICTIONAL test fixture - not a real product
+P006,product,T028,ビニル床タイル,vinyl floor tile,PH-ビニタイル NX,テスト化成（PLACEHOLDER）,,1988,,no,3,floor,placeholder,,FICTIONAL test fixture - not a real product
+P007,product,T015,スレートボード・フレキシブル板,slate board - flexible board,PH-フレックスボード,サンプル窯業（PLACEHOLDER）,chrysotile,1960,2003,yes,3,wall;ceiling;eaves,placeholder,,FICTIONAL test fixture - not a real product
+P008,product,T024,せっこうボード,gypsum board,PH-ジプサムボード,架空建材工業（PLACEHOLDER）,,1987,,no,3,wall;ceiling,placeholder,,FICTIONAL test fixture - not a real product
+P009,product,T029,ビニル床シート,vinyl sheet flooring,PH-長尺シート CF,テスト化成（PLACEHOLDER）,chrysotile,1970,1989,yes,3,floor,placeholder,,FICTIONAL test fixture - not a real product
+P010,product,T031,窯業系サイディング,fibre-cement (ceramic) siding,PH-サイディング M,サンプル窯業（PLACEHOLDER）,chrysotile,1980,2003,yes,3,exterior_wall,placeholder,,FICTIONAL test fixture - not a real product

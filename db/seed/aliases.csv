@@ -1,0 +1,107 @@
+alias,material_id,kind,verification,note
+吹付石綿,T001,kanji_variant,assumption,okurigana omitted
+吹付けアスベスト,T001,kana_variant,assumption,
+吹き付けアスベスト,T001,kana_variant,assumption,
+吹付ロックウール,T002,kanji_variant,assumption,okurigana omitted
+吹き付けロックウール,T002,kanji_variant,assumption,
+吹付けRW,T002,abbreviation,assumption,RW = rock wool
+湿式吹付けロックウール,T003,shorthand,assumption,
+珪藻土保温材,T006,kanji_variant,assumption,
+ケイ酸カルシウム保温材,T007,kana_variant,assumption,
+珪酸カルシウム保温材,T007,kanji_variant,assumption,
+ケイカル保温材,T007,abbreviation,assumption,
+ケイ酸カルシウム板第2種,T011,kana_variant,assumption,
+ケイ酸カルシウム板2種,T011,kana_variant,assumption,
+けい酸カルシウム板2種,T011,kana_variant,assumption,
+ケイカル板2種,T011,abbreviation,assumption,
+ケイカル2種,T011,abbreviation,assumption,
+フレキシブル板,T015,shorthand,assumption,
+フレキシブルボード,T015,shorthand,assumption,
+フレキ板,T015,abbreviation,assumption,
+フレキ,T015,abbreviation,assumption,
+flexible board,T015,english,assumption,
+大平板,T016,shorthand,assumption,
+スラグ石膏板,T020,kanji_variant,assumption,
+パルプセメントボード,T021,shorthand,assumption,
+ケイ酸カルシウム板第1種,T022,kana_variant,assumption,
+ケイ酸カルシウム板1種,T022,kana_variant,assumption,
+けい酸カルシウム板1種,T022,kana_variant,assumption,
+珪酸カルシウム板1種,T022,kanji_variant,assumption,
+ケイカル板1種,T022,abbreviation,assumption,
+ケイカル1種,T022,abbreviation,assumption,
+ロックウール吸音板,T023,shorthand,assumption,
+ロックウール化粧吸音板,T023,shorthand,assumption,
+岩綿吸音板,T023,old_name,assumption,岩綿 = rock wool (older term)
+岩綿吸音天井板,T023,old_name,assumption,
+RW吸音板,T023,abbreviation,assumption,
+rock wool acoustic board,T023,english,assumption,
+石膏ボード,T024,kanji_variant,assumption,
+プラスターボード,T024,old_name,assumption,
+PB,T024,abbreviation,assumption,common drawing shorthand
+GB-R,T024,abbreviation,assumption,JIS A 6901 symbol (regular)
+GB-S,T024,abbreviation,assumption,JIS A 6901 symbol (sheathing)
+GB-F,T024,abbreviation,assumption,JIS A 6901 symbol (fire-resistant)
+GB-NC,T024,abbreviation,assumption,JIS A 6901 symbol (non-combustible)
+強化せっこうボード,T024,shorthand,assumption,
+強化石膏ボード,T024,shorthand,assumption,
+plasterboard,T024,english,assumption,
+クロス,T027,shorthand,assumption,drawing shorthand for wallcovering
+ビニルクロス,T027,shorthand,assumption,
+ビニールクロス,T027,shorthand,assumption,
+ビニール床タイル,T028,kana_variant,assumption,
+ビニルタイル,T028,shorthand,assumption,
+ビニールタイル,T028,shorthand,assumption,
+Pタイル,T028,old_name,assumption,common older name
+コンポジションビニル床タイル,T028,shorthand,assumption,subtype
+ホモジニアスビニル床タイル,T028,shorthand,assumption,subtype
+半硬質ビニル床タイル,T028,shorthand,assumption,subtype
+vinyl tile,T028,english,assumption,
+VAT,T028,english,assumption,vinyl asbestos tile (US term)
+ビニール床シート,T029,kana_variant,assumption,
+長尺シート,T029,shorthand,assumption,
+長尺塩ビシート,T029,shorthand,assumption,
+塩ビシート,T029,shorthand,assumption,
+クッションフロア,T029,shorthand,assumption,
+CF,T029,abbreviation,assumption,cushion floor
+CFシート,T029,abbreviation,assumption,
+ソフト幅木,T030,kanji_variant,assumption,幅木/巾木 interchangeable
+ビニル巾木,T030,shorthand,assumption,
+ビニール巾木,T030,shorthand,assumption,
+ビニル幅木,T030,shorthand,assumption,
+塩ビ巾木,T030,shorthand,assumption,
+vinyl baseboard,T030,english,assumption,
+窯業サイディング,T031,shorthand,assumption,
+窯業系サイディングボード,T031,shorthand,assumption,
+押出セメント板,T033,shorthand,assumption,
+ECP,T033,abbreviation,assumption,extruded cement panel
+大波スレート,T034,shorthand,assumption,
+小波スレート,T035,shorthand,assumption,
+化粧スレート,T037,shorthand,assumption,
+アスファルトルーフィング,T038,shorthand,assumption,
+石綿管,T040,shorthand,assumption,
+石綿スレート,T042,old_name,assumption,
+slate board,T042,english,assumption,
+波形スレート,T043,shorthand,assumption,
+波板スレート,T043,shorthand,assumption,
+corrugated slate,T043,english,assumption,
+ケイ酸カルシウム板,T044,kana_variant,assumption,
+珪酸カルシウム板,T044,kanji_variant,assumption,
+ケイカル板,T044,abbreviation,assumption,very common drawing shorthand
+ケイカル,T044,abbreviation,assumption,
+吹付けタイル,T045,shorthand,assumption,複層仕上塗材
+吹付タイル,T045,shorthand,assumption,
+リシン,T045,shorthand,assumption,薄付け仕上塗材
+スタッコ,T045,shorthand,assumption,厚付け仕上塗材
+フローリング,N001,shorthand,assumption,
+複合フローリング,N001,shorthand,assumption,
+無垢フローリング,N001,shorthand,assumption,
+ベニヤ,N002,shorthand,assumption,
+磁器タイル,N003,shorthand,assumption,
+御影石,N004,shorthand,assumption,
+大理石,N004,shorthand,assumption,
+アルミ,N007,abbreviation,assumption,
+SUS,N008,abbreviation,assumption,
+打放し,N011,shorthand,assumption,
+打ち放し,N011,kanji_variant,assumption,
+木巾木,N012,shorthand,assumption,
+木製幅木,N012,kanji_variant,assumption,

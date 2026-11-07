@@ -1,0 +1,100 @@
+# Japanese asbestos regulatory milestones used by PlanMatch's year logic.
+#
+# NOTHING in src/ hard-codes these dates; decide.py reads them from here.
+#
+# verification:
+#   primary    - read in the legal instrument itself (政令/省令 text) or an mhlw.go.jp page
+#   secondary  - government-operated summary only (MHLW 石綿総合情報ポータルサイト), statute text not read
+#   unverified - commonly cited, but no source located; MUST NOT drive a DOES_NOT_CONTAIN decision
+# checked_on: date the source was last read by a maintainer. Re-verify before any real use.
+
+checked_on: "2026-11-06"
+
+milestones:
+  - id: spray_ban_1975
+    date: "1975"                      # exact 施行日 not located
+    threshold_pct: 5.0
+    scope: "Spraying of asbestos (>5%) prohibited in principle (特定化学物質等障害予防規則 amendment)."
+    instrument: "特定化学物質等障害予防規則 改正 (昭和50年)"
+    source_url: "https://www.ishiwata.mhlw.go.jp/about/"
+    quote: "「特化則」の大改正 … 石綿等の吹付け作業の原則禁止"
+    verification: secondary
+
+  - id: amosite_crocidolite_ban
+    date: "1995-04-01"
+    threshold_pct: 1.0
+    scope: "Manufacture/import/use of amosite and crocidolite (and products >1% of them) prohibited."
+    instrument: "労働安全衛生法施行令の一部を改正する政令 (平成7年政令第9号)"
+    source_url: "https://www.mhlw.go.jp/new-info/kobetu/roudou/sekimen/hourei/dl/hou06-257a.pdf"
+    quote: "一アモサイト若しくはクロシドライト又はこれらをその重量の一パーセントを超えて含有する製剤その他の物平成七年四月一日"
+    note: "Date confirmed from 附則第2条 of 平成18年政令第257号, which cites it as the cut-off for these substances."
+    verification: primary
+
+  - id: listed_products_ban_2004
+    date: "2004-10-01"
+    threshold_pct: 1.0
+    scope: "Manufacture/import/use of the 10 listed product groups (別表第八の二: building materials, friction materials, adhesives, …) containing >1% asbestos prohibited."
+    instrument: "労働安全衛生法施行令の一部を改正する政令 (平成15年政令第457号)"
+    source_url: "https://www.mhlw.go.jp/new-info/kobetu/roudou/sekimen/hourei/dl/hou06-257a.pdf"
+    quote: "改正前の労働安全衛生法施行令別表第八の二に掲げる製品であって、その含有する石綿の重量が当該製品の重量の一パーセントを超えるもの平成十六年十月一日"
+    note: "Date confirmed from 附則第2条 of 平成18年政令第257号."
+    verification: primary
+
+  - id: asbestos_rules_2005
+    date: "2005-07-01"
+    threshold_pct: null
+    scope: "石綿障害予防規則 (Ordinance on Prevention of Health Impairment due to Asbestos) in force."
+    instrument: "石綿障害予防規則 (平成17年厚生労働省令第21号)"
+    source_url: "https://www.ishiwata.mhlw.go.jp/about/"
+    quote: "「石綿障害予防規則」（石綿則）の制定（施行期日：2005.7.1）"
+    verification: secondary
+
+  - id: full_ban_2006
+    date: "2006-09-01"
+    threshold_pct: 0.1
+    scope: "Manufacture/import/transfer/provision/new use of asbestos and all products >0.1% prohibited, except temporarily exempted products (mainly industrial: gaskets, packings, etc.)."
+    instrument: "労働安全衛生法施行令の一部を改正する政令 (平成18年8月2日政令第257号)"
+    source_url: "https://www.mhlw.go.jp/new-info/kobetu/roudou/sekimen/hourei/dl/hou06-257a.pdf"
+    quote: "附則（施行期日）第一条この政令は、平成十八年九月一日から施行する。"
+    verification: primary
+
+  - id: exemptions_closed_2012
+    date: "2012-03-01"
+    threshold_pct: 0.1
+    scope: "Remaining temporary exemptions abolished; complete ban."
+    instrument: "労働安全衛生法施行令等の一部を改正する政令 (平成23年1月14日政令第4号)"
+    source_url: "https://www.ishiwata.mhlw.go.jp/about/"
+    quote: "「安衛法施行令等」の一部を改正する政令（施行期日：2012.3.1）… 猶予措置を撤廃"
+    verification: secondary
+
+  - id: survey_by_qualified_person_2023
+    date: "2023-10-01"
+    threshold_pct: null
+    scope: "Pre-demolition/renovation surveys (事前調査) of buildings must be done by a person who completed the MHLW-designated course (construction-start basis)."
+    instrument: "石綿障害予防規則 改正 (令和2年厚生労働省令第134号) / 告示"
+    source_url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/sekimen/index.html"
+    quote: "令和５年10月１日以降着工の工事から事前調査は厚生労働大臣が定める講習を修了したものが行います。"
+    verification: primary
+    note: "Context only (why screening output must go to a qualified surveyor); not used in year logic."
+
+# ---------------------------------------------------------------------------
+# Year logic inputs consumed by decide.py (milestone 5).
+# ---------------------------------------------------------------------------
+year_logic:
+  # Construction start (着工) on or after this date is the ONLY year-based route to DOES_NOT_CONTAIN.
+  # It is the effective date of the 0.1% ban (primary source above).
+  full_ban_milestone: full_ban_2006
+
+  # Commonly cited survey shortcut: "着工日が2006年9月1日以降なら石綿含有なしと判断できる".
+  # No primary source located yet -> recorded here as unverified and NOT relied on beyond the ban date itself.
+  post_ban_start_rule_verified: false
+
+  # Recall-first margins (years). A year-only date is treated as the WORST case within that year.
+  # 竣工 (completion) dates are converted to an earliest-possible 着工 by subtracting this lag.
+  completion_to_start_lag_years: 3
+  # Stock of pre-ban materials could still be installed after the ban; extra safety margin
+  # applied before the year alone may yield DOES_NOT_CONTAIN.
+  post_ban_margin_years: 1
+  # Margin after an entry's asbestos production END year before "year is after production period"
+  # counts as evidence (stock/inventory installation lag).
+  post_production_margin_years: 3

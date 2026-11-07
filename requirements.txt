@@ -1,0 +1,5 @@
+# Python 3.10+ (developed on 3.12). Pinned; later milestones add rapidfuzz, scikit-learn,
+# sentence-transformers.
+PyYAML==6.0.3
+jsonschema==4.26.0
+pytest==9.2.0
